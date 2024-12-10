@@ -1,0 +1,55 @@
+body{
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+}
+.first{
+    width:  400px;
+    padding: 40px;
+    background-color: white;
+    color:aliceblue;
+    border: none;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 25px;
+}
+h1{
+    padding: 15px;
+    color: black;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(0,0,0, 0.1);
+    
+}
+.first input {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+    outline: none;
+    color: black;
+}
+.first button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+
+    border-radius: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    color: black;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
